@@ -1,6 +1,6 @@
 #!/bin/sh
  
- ssh -T karan@139.59.80.181 <<EOF
+ ssh -o StrictHostKeyChecking=no -T karan@139.59.80.181 uptime <<EOF
   cd ~/sampleRepo
   git pull
   exit
