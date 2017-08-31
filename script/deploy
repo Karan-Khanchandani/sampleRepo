@@ -1,6 +1,6 @@
 #!/bin/sh
  
- ssh karan@139.59.80.181 <<EOF
+ ssh -T karan@139.59.80.181 <<EOF
   cd ~/sampleRepo
   git pull
   exit
