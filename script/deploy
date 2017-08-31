@@ -1,6 +1,6 @@
 #!/bin/sh
  
-ssh prod <<EOF
+ssh ssh karan@139.59.80.181 <<EOF
   cd ~/hello-jenkins
   git pull
   exit
