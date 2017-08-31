@@ -1,6 +1,6 @@
 #!/bin/sh
  
- ssh -T karan@139.59.80.181 uptime <<EOF
+ ssh -T karan@139.59.80.181 <<EOF
   cd ~/sampleRepo
   git pull
   exit
